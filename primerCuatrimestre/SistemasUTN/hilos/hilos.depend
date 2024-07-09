@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716326258 source:c:\users\ailen colo\desktop\sistemasutn\hilos\main.c
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+

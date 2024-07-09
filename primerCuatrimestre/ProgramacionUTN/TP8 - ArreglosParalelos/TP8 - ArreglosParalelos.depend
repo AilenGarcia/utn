@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1716323204 source:c:\users\ailen colo\desktop\programacionutn\tp8 - arreglosparalelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

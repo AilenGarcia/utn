@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1717720119 source:c:\users\ailen colo\desktop\sistemasutn\recursividad\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1717872833 source:c:\users\ailen colo\desktop\recursividad\recursividad\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

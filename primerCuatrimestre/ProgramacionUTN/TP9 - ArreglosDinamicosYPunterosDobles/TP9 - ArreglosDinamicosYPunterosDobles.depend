@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1716313818 source:c:\users\ailen colo\desktop\programacionutn\tp9 - arreglosdinamicosypunterosdobles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

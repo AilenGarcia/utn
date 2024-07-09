@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1718150334 source:c:\users\ailen colo\desktop\sistemasutn\practicaparcial\main.c
+	<stdio.h>
+	<pthread.h>
+
