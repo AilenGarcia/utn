@@ -2,10 +2,7 @@ import model.Client;
 import model.Product;
 import model.Sales;
 
-import java.util.HashSet;
-import java.util.InputMismatchException;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 //Una tienda de productos de computación necesita un sistema básico para gestionar su
 // inventario de productos, clientes y registrar las ventas realizadas.
@@ -104,25 +101,20 @@ public class Main {
             System.out.println("No hay clientes.\n");
         }
     }
+
     //Products
     public static void createProduct(){
         System.out.println("Nombre del producto: ");
         var name = scanner.nextLine();
 
-        System.out.println("Color del producto: ");
-        var color = scanner.nextLine();
-
         System.out.println("Cantidad del producto: ");
         var amount = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("Codigo del producto: ");
-        var code = scanner.nextLine();
-
         System.out.println("Precio del producto: ");
         var price = scanner.nextFloat();
 
-        Product product = new Product(name, amount, color, code, price);
+        Product product = new Product(name, amount, price);
         products.add(product);
         System.out.println("Producto agregado exitosamente \n");
     }
@@ -131,9 +123,7 @@ public class Main {
             for(Product product : products){
                 System.out.println("-------------------------------------------------------\n");
                 System.out.println("Id: " + product.getID()+ "\n" +
-                        "Codigo: " + product.getCode()+ "\n" +
                         "Nombre: " + product.getName() + "\n" +
-                        "Color: " + product.getColor() + "\n" +
                         "Cantidad: " + product.getAmount() + "\n" +
                         "Precio: " + product.getPrice() + "\n");
                 System.out.println("-------------------------------------------------------\n");
@@ -142,6 +132,7 @@ public class Main {
             System.out.println("No hay productos.\n");
         }
     }
+
     //Sales
     public static void createSales(){
         boolean found = false;
@@ -201,3 +192,4 @@ public class Main {
         }
     }
 }
+
